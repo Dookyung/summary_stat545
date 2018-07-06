@@ -1,0 +1,10 @@
+new_session: yes
+
+rmd_files: [
+  "index.rmd",
+  "01_intro.Rmd",
+  "02_git.Rmd"
+]
+
+before_chapter_script: "_common.R"
+mainfont: NanumGothic

@@ -1,0 +1,23 @@
+
+---
+knit: "bookdown::render_book"
+title: "Stat545 정리"
+author: ["Dookyung Kim"]
+description: "이책은 Stat545.com의 강의내용을 정리한 책입니다."
+url: 'http\://dkkim.co.kr/'
+github-repo: Dookyung/r4ds
+twitter-handle: hadley
+cover-image: cover.png
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+# Welcome {-}
+
+이책은 __"Stat545.com"__의 강의내용을 정리한 책입니다.
+
+<img src="cover.png" width="250" height="375" alt="Cover image" />
+
+http://stat545.com/index.html
+
+

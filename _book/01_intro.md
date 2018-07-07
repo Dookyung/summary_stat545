@@ -20,16 +20,22 @@
 
 - Rmarkdown
 
-<img src="diagrams/Rmarkdown.png" width="75%" style="display: block; margin: auto;" />
 
-<img src="diagrams/Markdown.png" width="75%" style="display: block; margin: auto;" />
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/Rmarkdown} \end{center}
 
-<img src="diagrams/html.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/Markdown} \end{center}
+
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/html} \end{center}
 
 
 - git and github : Version control systems(VCS) and collaboration tools.
 
-<img src="diagrams/git_finaldoc.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/git_finaldoc} \end{center}
+
+    * For a quick, stand-alone document that doesn't fit neatly into a repository or project (yet), make it a [Gist](https://gist.github.com)
 
 
 - GNU Make
@@ -41,28 +47,36 @@
     * if the data changes, how do we remember to remake the figure 2B and 4?
 
 
-<img src="diagrams/make.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/make} \end{center}
 
 
-<img src="diagrams/make2.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/make2} \end{center}
 
 
 ### What is Data Science?
 
 
-<img src="diagrams/datascience.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/datascience} \end{center}
 
 
-<img src="diagrams/dsskill.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/dsskill} \end{center}
+
+https://gist.github.com/hadley/820f09ded347c62c2864
 
 
-<img src="diagrams/dsworkflow.png" width="75%" style="display: block; margin: auto;" />
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/dsworkflow} \end{center}
 
 
-<img src="diagrams/bigdata.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/bigdata} \end{center}
 
 
-<img src="diagrams/3d.png" width="75%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.75\linewidth]{diagrams/3d} \end{center}
 
 
 ## Deep Thoughts about data analytic work; intro to R and RStudio
@@ -171,7 +185,7 @@ Not all functions have (or require) arguments:
 
 ```r
 date()
-#> [1] "Fri Jul  6 21:08:07 2018"
+#> [1] "Sat Jul  7 13:48:28 2018"
 ```
 
 - The workspace is where user-defined objects accumulate. You can also get a listing of these objects with commands:
@@ -250,14 +264,16 @@ plot(x, y)
 abline(a, b, col = "purple")
 ```
 
-<img src="01_intro_files/figure-html/toy-line-1.png" width="70%" style="display: block; margin: auto;" />
+
+
+\begin{center}\includegraphics[width=0.7\linewidth]{01_intro_files/figure-latex/toy-line-1} \end{center}
 
 
 
 ```r
 dev.print(pdf, "toy_line_plot.pdf")
-#> quartz_off_screen 
-#>                 2
+#> pdf 
+#>   2
 ```
 
 ```
